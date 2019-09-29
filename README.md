@@ -7,30 +7,28 @@ SublimePaneNavigation
 2. **Split Pane Navigation:** Adds key bindings for `ctrl+]` and `ctrl+[` to cycle through the multiple split panes open in a window (if there are multiple split panes).
 3. **Sending Tabs To Other Panes:** Adds key bindings for `ctrl+shift+left` and `ctrl+shift+right` to send tabs from their current pane to the next/previous panes (if there are multiple split panes in a window).
 
-Installation
-------------
-SublimePaneNavigation is available for installed through [Package Control](http://wbond.net/sublime_packages/package_control/installation) for Sublime Text 2. The advantage of using this method is that Package Control will automatically keep SublimePaneNavigation up to date with the latest version. To install it with Package Control:
 
-* Make sure you have Package Control installed, instructions available at http://wbond.net/sublime_packages/package_control/installation
-* Once you install Package Control, restart Sublime Text 2 and bring up the Command Palette with `cmd+shift+P` (on Mac OS X) or `ctrl+shift+P` (on Windows or Linux).
-* Select "Package Control: Install Package" and  wait while Package Control fetches the latest package list.
-* Then, start typing "Pane Navigation" and select it from the list when it appears (restarting Sublime Text 2 is not necessary).
+## Installation
 
-Otherwise, you can install SublimePaneNavigation with or without git. **With git**: Clone the repository in your Sublime Text "Packages" directory (`git clone https://github.com/borist/SublimePaneNavigation.git`). **Without git**: Download the latest source from [GitHub](https://github.com/borist/SublimePaneNavigation) and copy the folder folder to your Sublime Text "Packages" directory.
+### By Package Control
 
-The "Packages" directory is located at:
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `PaneNavigation` and press <kbd>Enter</kbd>
 
-* OS X:
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
-        ~/Library/Application Support/Sublime Text 2/Packages/
-
-* Linux:
-
-        ~/.config/sublime-text-2/Packages/
-
-* Windows:
-
-        %APPDATA%/Sublime Text 2/Packages/
 
 Usage
 -----
